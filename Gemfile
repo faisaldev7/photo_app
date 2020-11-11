@@ -6,6 +6,13 @@ ruby '2.6.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', '~> 1.4'
+gem 'jquery-rails'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -22,8 +29,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 group :production do
 gem 'pg', '~> 0.11'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+
 gem 'rails_12factor'
 end
 
